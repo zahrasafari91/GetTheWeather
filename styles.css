@@ -1,0 +1,91 @@
+/* * @name: Assignement2 
+* @Course Code: SODV1201 
+* @class: Software Development Diploma program.
+* @author: Zahra Safarialamoti. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Raleway', sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgb(238, 90, 102),rgb(12, 149, 240));
+    color: white;
+}
+
+.container{
+    width: 300px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+    margin: 0 auto;
+    padding-bottom: 40px;
+}
+
+.title p{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: 1.5rem;
+    color: #293251;
+}
+
+.notification{
+    display: none;
+    background-color: white;
+}
+
+.notification p{
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 1.2em;
+    color: #721c24;
+}
+
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+
+.weather-icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.temperature p{
+    margin: 0;
+    padding: 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #293251;
+    cursor: pointer;
+}
+
+.temperature span{
+    font-size: 2rem;
+    color: #293251;
+}
+
+.description p{
+    margin: 0;
+    padding: 25px;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #293251;;
+}
+
+.location p{
+    margin: 0;
+    padding: 0px;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #293251;;
+}
