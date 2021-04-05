@@ -5,9 +5,11 @@ using a free online service
 
 
 Weather Underground Icons
-by Ashley Jager 
+by Ashley Jager:
+
 https://dribbble.com/shots/1879422-Weather-Underground-Icons
 
 
 The API provider:
+
 http://www.OpenWeatherMap.org 
