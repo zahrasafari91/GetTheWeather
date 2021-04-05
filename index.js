@@ -1,8 +1,3 @@
-// * @name: Assignement2 
-// * @Course Code: SODV1201 
-// * @class: Software Development Diploma program.
-// * @author: Zahra Safarialamoti.
-
 // create an object 
 let myObj = {
   tempC: 0,
@@ -23,8 +18,9 @@ function readyFn() {
      
 }
 // Calling JQuery when doc is ready.
+//add your own app id
 $(document).ready(readyFn);
-let api = `http://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${long}&appid=254e0cf78d020e1433467163be0f45b7`;
+let api = `http://api.openweathermap.org/data/2.5/weather?lat=${lati}&lon=${long}&appid=`;
 fetch(api)
   .then(function (response) {
     let data = response.json();
